@@ -1,0 +1,87 @@
+const category = {
+  categoryList: [
+    {
+      name: 'Mobiles',
+      icon: require(`../images/categroyIcon/mobileIcon.png`),
+      subCategory: ['Tablet', 'Accessories', 'Mobile Phones'],
+    },
+    {
+      name: 'Vehicles',
+      icon: require(`../images/categroyIcon/carIcon.png`),
+      subCategory: [
+        'Cars',
+        'Cars Accessories',
+        'Spare Parts',
+        'Busses, Vans & Trucks',
+        'Rickshaw & Chingchi',
+        'Other Vehicles',
+      ],
+    },
+    {
+      name: 'Electronics & Home Appliances',
+      icon: require(`../images/categroyIcon/homeApplianceIcon.png`),
+      subCategory: [
+        'Computers & Accessories',
+        'TV - Video - Audio',
+        'Cameras & Accessories',
+        'Games & Entertainment',
+        'Other Home Appliances',
+        'Generators, UPS & Power Solutions',
+        'Kitchen Appliances',
+        'AC & Coolers',
+        'Fridges & Freezers',
+        'Washing Machines & Dryers',
+      ],
+    },
+    {
+      name: 'Animals',
+      icon: require(`../images/categroyIcon/animalIcon.png`),
+      subCategory: [
+        'Fish & Aquariums',
+        'Birds',
+        'Hens & Aseel',
+        'Cats',
+        'Dogs',
+        'Livestock',
+        'Horses',
+        'Pet Food & Accessories',
+        'Other Animals',
+      ],
+    },
+    {
+      name: 'Furniture & Home Decor',
+      icon: require(`../images/categroyIcon/furnitureIcon.png`),
+      subCategory: [
+        'Sofa & Chairs',
+        'Beds & Wardrobes',
+        'Home Decoration',
+        'Tables & Dining',
+        'Garden & Outdoor',
+        'Painting & Mirrors',
+        'Rugs & Carpets',
+        'Curtains & Blinds',
+        'Office Furniture',
+        'Other Household Items',
+      ],
+    },
+    {
+      name: 'Fashion & Beauty',
+      icon: require(`../images/categroyIcon/fashionIcon.png`),
+      subCategory: [
+        'Accessories',
+        'Clothes',
+        'Footwear',
+        'Jewellery',
+        'Make Up',
+        'Skin & Hair',
+        'Watches',
+        'Wedding',
+        'Lawn & Pret',
+        'Couture',
+        'Other Fashion',
+      ],
+    },
+  ],
+};
+
+export default category;
